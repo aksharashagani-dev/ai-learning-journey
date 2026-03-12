@@ -13,7 +13,7 @@ message = client.messages.create(
     model="claude-opus-4-6",
     max_tokens=1000,
     messages=[
-        {"role": "user", "content": "Recommend 5 songs for a late night coding session"}
+        {"role": "user", "content": "3 website ideas"}
     ]
 )
 
